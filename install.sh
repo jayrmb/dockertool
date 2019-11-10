@@ -3,14 +3,7 @@
 yum -y update
 
 #移除旧版本
-yum remove docker \
-           docker-client \
-           docker-client-latest \
-           docker-common \
-           docker-latest \
-           docker-latest-logrotate \
-           docker-logrotate \
-           docker-engine
+yum remove docker docker-client docker-client-latest docker-common docker-latest docker-latest-logrotate docker-logrotate docker-engine
 
 #安装依赖
 yum install -y yum-utils device-mapper-persistent-data lvm2
