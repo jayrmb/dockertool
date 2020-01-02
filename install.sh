@@ -27,8 +27,6 @@ systemctl enable docker
 #安装pip需要先安装epel-release包
 yum -y install -y epel-release
 #安装pip
-yum install -y python-pip
-#升级pip
-pip install --upgrade pip
+yum install -y python3-pip
 #使用pip方式安装docker-compose
-pip install docker-compose
+pip3 install docker-compose
